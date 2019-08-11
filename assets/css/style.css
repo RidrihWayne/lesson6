@@ -1,19 +1,7 @@
-
-
 .logo {
   text-align: center;
 }
 
-.logo__signature {
-  font-size: 10px;
-  font-family: 'Lato', sans-serif;
-  color: black;
-  font-weight: bold;
-  text-decoration: underline;
-  text-transform: uppercase;
-  line-height: 1.2;
-  text-align: center;
-}
 .logo__headline {
   font-size: 44px;
   font-family: 'Open Sans', sans-serif;
