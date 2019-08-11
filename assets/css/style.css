@@ -42,16 +42,52 @@ div.contacts{
 div.nav__numbers{
   margin:0;
   background-image: url("../images/background3.png");
-  background-position: 20% 13%;
-  background-size: 150px 60px;
+  background-position: 12% 12%;
+  background-size: 160px 55px;
   background-repeat: no-repeat;
   position: relative;
   min-height: 50px;
+}
+div.nav__mobile{
+  margin:0;
+  background-image: url("../images/phone1.png");
+  background-position: 8% 6%;
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+div.nav__fax{
+  margin:0;
+  background-image: url("../images/fax.png");
+  background-position: 8% 6%;
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+div.nav__earth {
+  margin:0;
+  background-image: url("../images/earth.png");
+  background-position: 8% 6%;
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+div.nav__letter {
+  margin:0;
+  background-image: url("../images/letter.png");
+  background-position: 8% 6%;
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 .contacts {
    font-size: 0; 
 }
+
 .nav,
 .nav__headline,
 .nav__numbers {
@@ -61,7 +97,7 @@ div.nav__numbers{
   }
 
 .info,
-.info__headline{
+.info__headline {
   text-align: left;
   font-size: initial;
   margin-left: 50px;
@@ -71,6 +107,11 @@ div.nav__numbers{
   font-size: 30px;
   font-family: 'Lato', sans-serif;
   text-transform: uppercase;
+}
+
+.nav__icon,
+.nav__fax {
+  margin-top: 0;
 }
 
 main {
